@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    box-shadow: 0 0 1px 3px rgb(143, 139, 139);
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.align-ver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ip,
+.op {
+    width: 100%;
+    box-shadow: 0 0 3px 1px rgb(143, 139, 139);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.ip {
+    margin: 30px 0;
+}
+
+textarea {
+    resize: none;
+    margin: 15px 0;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(156, 144, 144);
+}
+
+button {
+    width: 40%;
+    border: none;
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(71, 71, 109);
+    color: white;
+}
+
+.date {
+    margin: 10px 0;
+}
