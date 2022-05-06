@@ -11,7 +11,7 @@ app.listen(8000, ()=>{
     console.log('server is running')
 })
 
-app.post('saveData', (req, res)=>{
+app.post('/saveData', (req, res)=>{
     serverData = req.body
     res.json({msg : 'done'})
 })
